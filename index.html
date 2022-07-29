@@ -4,9 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Instagram</title>
   </head>
   <body>
-    <h1>Clone do Instagram</h1>
+    <div class="instagram-wrapper">
+      <div class="instagram-phone">
+        <div class="img-slider">
+          <img src="./assets/img/gif-imagens.gif" alt="" />
+        </div>
+      </div>
+      <div class="instagram-container">
+        <div class="group">
+          <div class="logo-instagram">
+            <img src="assets/img/instagram-logo.png" alt="Instagram logo" />
+          </div>
+          <div class="sem-nome">
+            <div class="form">
+              <form action="index.html" method="post">
+                <input
+                  class="input"
+                  type="text"
+                  name="username"
+                  placeholder="Telefone, nome de usuário ou email"
+                />
+                <input
+                  class="input"
+                  type="password"
+                  name="password"
+                  placeholder="Senha"
+                />
+                <button class="btn">Entrar</button>
+              </form>
+            </div>
+            <div class="alternative">
+              <div class="ou">
+                <div class="bar"></div>
+                <div><p>ou</p></div>
+                <div class="bar"></div>
+              </div>
+              <div class="login-with">
+                <div>
+                  <img src="assets/img/Facebook.png" alt="logo do Facebook" />
+                  <a href="#">Entrar com o Facebook</a>
+                </div>
+                <a href="#">Esqueceu a senha?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group">
+          <p>Não tem uma conta? <span>Cadastre-se</span></p>
+        </div>
+        <div class="get-app">
+          <p class="text">Obtenha o aplicativo.</p>
+          <div>
+            <div class="logo-app">
+              <img src="assets/img/app-store.png" alt="logo do app store" />
+            </div>
+            <div class="logo-app">
+              <img src="assets/img/google-play.png" alt="logo do google play" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
